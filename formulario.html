@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo gatuno</title>
+    <script src="https://kit.fontawesome.com/cbb7e0a26a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+     <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a href="indice.html"><img src="IMG/Gif-cat.png" alt="" width="50px"></a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="indice.html">Home</a></li>
+            <li><a href="curiocidades.html">Curiocidades</a></li>
+            <li><a href="tatuajes.html">Tatuajes</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+          </ul>
+        </div>
+      </nav>
+</header>
+<main>
+    <div class="contenido-ppal">
+        <section class="secciones">
+          <h2>Deja un comentario</h2> 
+        </section>
+        
+        <!--formulario bootstrap apertura-->
+        
+        <form action="procesar.html" id="formulario">
+          <div class="form-group">
+              <input name="nombre" required id="nombre" type="text" class="form-control" placeholder="Nombre">
+          </div>
+          <div class="form-group">
+              <input name="correo" required id="correo" type="email" class="form-control"
+                  placeholder="Correo">
+          </div>
+          <div class="form-group">
+          <textarea name="texto" rows="4" cols="120" placeholder="Escriba algo" class="form-control" required id="comentarios"></textarea>
+          </div>
+           
+          
+
+          <button class="btn btn-success">Enviar</button>
+      </form>
+      <!--formulario bootstrap cierre -->
+
+    </div>
+    <aside class="contenido-sec">
+        <img src="img/cute-dog.gif" alt="gif gato2"> 
+    </aside>
+
+</main>
+<footer>
+  <a class="redsoc" href="https://twitter.com/?lang=es" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><!--luego de la pagina web va el mismo codigo de cada pagina, esta relacionado a este codio deL HEADER  -->
+  <a class="redsoc" href="https://es-la.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>      
+  <a class="redsoc" href="https://ar.pinterest.com/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+  <a class="redsoc" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+  <a class="redsoc" href="https://ar.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  <br>
+  <h5>© Copyright Mundo Gatuno - 2022</h5>
+  <h6>Todos los derechos reservados</h6>
+  <br>     
+</footer>   
+<script src="JS/formularioV.js"></script>    
+</body>
+</html>

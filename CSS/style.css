@@ -1,0 +1,191 @@
+
+
+html{
+    font-size: 1rem;
+    height: 100%;
+}
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body, header, main, footer {
+    /*border: 3px red solid;*/
+    min-height: 50px;
+    margin: 0.5rem;
+    min-width: 400px;
+}
+body {
+    background-color: rgb(255, 255, 255) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    min-height: 200px;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+     
+}
+/* no se usa porque tiene bootstrap
+header {
+    background: rgb(31, 45, 167);
+    box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
+}*/
+
+footer{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        padding: 20;
+        height: 100px;
+        margin-top: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /*position:sticky;*/
+        /*position: fixed*/
+}
+.redsoc{
+    color: rgb(230, 217, 226);
+}
+
+/*CONTENIDO PRINCIPAL*/
+main>div {
+    /*border: 2px blue solid;*/
+    min-height: 18px;
+    margin: 0.5rem;
+    height: auto;
+    float: left;
+    width: 65%;
+    
+}
+main>aside {
+    /*border: 2px blue solid;*/
+    min-height: 180px;
+    min-width: 25%;
+    margin: 0.5rem;
+    float:right;
+    width: auto;
+}
+
+.secciones {
+    /*border: 2px green solid;*/
+    min-height: 50px;
+    margin: 00.5rem;
+    text-align: center;
+}
+.secciones article {
+    /*border: 2px purple solid;*/
+    margin: 0.5rem;
+    min-height: 20px;
+    
+    
+}
+
+
+#gif-ppal {
+    width: 5%;
+}
+
+/*logo y menu*/
+/*no esta sacarlo
+.header-logo {
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.header-menubar {
+    left: auto;
+    position: relative;
+    top: auto;
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.header-menubar ul {
+    list-style: none;
+    
+}
+
+.header-menubar li {
+    float: left;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0.5rem 0;    
+    
+}
+.header-menubar a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-menubar a:hover {
+    color: purple; /*usar el colozilla para la paleta del logo 
+}
+.header-menubar li a {
+    font-size: 1.2rem;
+    background: rgb(255, 255, 255);*/
+
+  /* En pantallas de 992px de ancho o menos, pase de cuatro columnas a dos columnas */
+  /*  @media screen and (max-width: 992px) {
+        .column {
+          flex: 50%;
+        }
+      }
+    /* En pantallas de 600 px de ancho o menos, haga que las columnas se apilen 
+    una encima de la otra en lugar de una al lado de la otra */  
+/*    @media screen and (max-width: 600px) {
+        .row {
+          flex-direction: column;
+        }
+      }  
+*/
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+/* On screens that are 992px wide or less, go from four columns to two columns */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Container for flexboxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.column {
+  flex: 50%;
+  padding: 40px;
+}
+
+/*.column {
+  flex: 50%;
+  padding: 40px;
+}*/
+
+@media only screen and (min-width: 1200px) {
+  .column {
+    flex: 30%;
+  }
+}
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 60%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
