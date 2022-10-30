@@ -13,14 +13,6 @@ $formulario.onsubmit = evento => {
     alert("Muchas gracias por enviar el formulario");
     document.fvalida.submit();
 
- // Validar
- //*if (nombre === "Luis" || nombre === "José") {
-  //   alert("No pueden ser esos nombres");
-  //   return;
- //}
- //if (correo.endsWith("@hotmail.com")) {
- //    alert("No puede ser de hotmail");
- //    return;
- //}
+ 
  $formulario.submit();
 };
